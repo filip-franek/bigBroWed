@@ -3,7 +3,7 @@ body {
     background-size: cover;
     /*background-position: center; */
     background-repeat: no-repeat;
-    padding-top: 7%;
+    padding-top: 60px;
     color: white;
 }
 
@@ -28,4 +28,18 @@ p{
 	text-align: center;
 	font-size: 3em;
 	font-weight: 600;
+}
+#demo{
+	/*padding-top: 20px;*/
+	font-size: 2.2em;
+	padding-left: 18px;
+	/*background-color: */
+	/*color: black;*/
+	/*text-align: center;*/
+}
+#footnote{
+	position: fixed;
+	bottom: 5px;
+	color: #666666;
+	text-align: right;
 }
