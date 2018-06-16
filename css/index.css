@@ -1,0 +1,31 @@
+body {
+    background: url("../media/DSC01794_cover_wide.jpg");
+    background-size: cover;
+    /*background-position: center; */
+    background-repeat: no-repeat;
+    padding-top: 7%;
+    color: white;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 4em;
+}
+p{
+	font-size: 3em;
+}
+
+.fontSize2x{
+	font-size: 2em;
+}
+
+.p_event{
+	padding-top: 20px;
+}
+
+.names{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 600;
+}
