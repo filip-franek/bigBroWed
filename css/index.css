@@ -34,10 +34,9 @@ p {
 }
 .divCen{
 	/*position: relative; top: 100%;*/
-	/*padding-top: 300px;*/
+	padding-top: 60%;
 	/*position: absolute;*/
-	padding: 20% 10px;
-	/*margin: auto 0;*/
+	/*padding: auto 10px;*/
 }
 
 #demo{
@@ -120,6 +119,19 @@ h1 {
 	}
 }
 @media (max-width: 768px) {
+	body {
+	    background: #101010 url("../media/DSC01794_cover_wide.jpg");
+	    background-size: cover;
+	    /*padding-top: 50px;*/
+	    background-attachment: fixed;
+	    /*overflow: hidden;*/
+	    /*width: 100%;*/
+	    background-size: 200%;
+	    background-position: center top; 
+	    background-repeat: no-repeat;
+	    padding-top: 60px;
+	    /*color: #EDEDED;*/
+	}
 	h1 {
 		font-weight: 600;
 		font-size: 45px;
