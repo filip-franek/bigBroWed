@@ -8,16 +8,26 @@ body {
     /*background-size: 100%;*/
     /*background-position: center; */
     background-repeat: no-repeat;
-    padding-top: 60px;
+    padding-top: 50px;
     color: #EDEDED;
 }
 
 p {
+	/*font-size: 3em;*/
+}
+
+.fontSizex{
+	font-size: 1.2em;
+}
+.fontSize2x{
+	font-size: 2em;
+}
+.fontSize3x{
 	font-size: 3em;
 }
 
-.fontSize2x{
-	font-size: 2em;
+.fontMenu{
+	font-size: 1.1em;
 }
 
 .p_event{
@@ -40,7 +50,7 @@ p {
 }
 
 #demo{
-	/*padding-top: 20px;*/
+	margin-top: 10px;
 	font-size: 32px;
 	padding-left: 18px;
 	background-color: rgba(110, 110, 110, .7);
