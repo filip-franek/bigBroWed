@@ -1,0 +1,87 @@
+<!-- /* my template */ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120956395-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-120956395-1');
+	</script>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="windows-1250"> <!-- for czech alphabet -->
+	<title>Kontakt</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="c:\Users\phill\Dropbox (Personal)\db_Software\web\Bootstrap\bootstrap-3.3.7-dist\css\bootstrap.min.css"> -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+	<!-- <img src="media/DSC01794_cover_wide.jpg" width="100%"> -->
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container"> <!-- adds margin to navbar elements -->
+			<div class="navbar-header">
+				<!-- collapses the navbar when width is less then 765px, data-target (navbar elemnents in div with id) get collapsed -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#whateverID" aria-expanded="false">
+					<!-- creates hamburger button -->
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		      	</button>
+		      	<!-- your brand text or image -->
+		      	<a class="navbar-brand">
+			    	<i class="fas fa-female"></i>+<i class="fas fa-male"></i>
+			    </a>
+				<a class="navbar-brand fontSize2x" href="index.html">Budou z nás Píšovi</a>
+			</div>
+
+			<!-- something next to the brand, add ul/li, also would work using div/li-->
+			<!-- something to the -->
+			<div class="collapse navbar-collapse " id="whateverID">
+				<ul class="nav navbar-nav fontMenu">
+					<!-- <li><a class="" href="#" ></a></li> -->
+					<li><a class="active" href="venue.html"> Staveníčko</a></li>
+					<li><a class="active" href="event.html"> Děníčko</a></li>
+					<li><a class="active" href="others.html"> Copa-íčko</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="iconNav" href="contact.html"><i class="fas fa-address-book"></i></a></li>
+					<!-- <li><a class="iconNav" href="#"><i class="fas fa-female"></i>+<i class="fas fa-male"></i></a></li>   -->
+					<li><a class="iconNav" href="https://goo.gl/maps/XZ6yQ9YNkW22" target="_blank"><i class="fas fa-map"></i></a></li>
+					<!-- <li><button type="button" class="btn btn-default navbar-btn">Přidej <i class="fas fa-calendar-plus"></i></button></li>		 -->
+					<li><a class="iconNav" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2dsdTNyb2xhcTl0MDd1YW40anVvNDEycjkgbzMwcmd0dDM1NzhpbHJpNWs3bXA0ZTVmcnNAZw&tmsrc=o30rgtt3578ilri5k7mp4e5frs%40group.calendar.google.com" target="_blank"><i class="fas fa-calendar-plus"></i></a></li>
+					<!-- target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2dsdTNyb2xhcTl0MDd1YW40anVvNDEycjkgbzMwcmd0dDM1NzhpbHJpNWs3bXA0ZTVmcnNAZw&tmsrc=o30rgtt3578ilri5k7mp4e5frs%40group.calendar.google.com" -->
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container bckevent fontSize1x5">
+		<h3 class="headPad">Kontakty</h3>
+		<p>
+			V případě dotazů nás kontaktujte
+			<br>
+			<table>
+				<tr>
+					<td><i class="fas fa-female"></i> </td>
+					<td class="venTab">Nevěsta: </td>
+					<td class="venTab">Tel. 721678475,</td>
+					<td class="venTab">Email ivetahrach@gmail.com</td>
+				</tr>
+				<tr>
+					<td><i class="fas fa-male"></i> </td>
+					<td class="venTab">Ženich: </td>
+					<td class="venTab">Tel. 730893772, </td>
+					<td class="venTab">Email vaclav.franek@gmail.com</td>
+				</tr>
+			</table>
+		</p>
+	</div>
+
+</body>
