@@ -6,13 +6,17 @@ body {
     /*background-color: #101010;*/    
     background-size: 100%;
     background-attachment: fixed;
-    overflow: hidden;
+    /*overflow: hidden;*/
     /*width: 100%;*/
+    min-width: 360px;
     /*background-size: 100%;*/
     /*background-position: center; */
     background-repeat: no-repeat;
     padding-top: 50px;
     color: #EDEDED;
+}
+.navbar {
+	min-width: 360px;
 }
 
 p {
@@ -89,8 +93,8 @@ h1 {
 	padding-top: 20px
 }
 
-.venTab {
-	padding-left: 8px;
+.contTxt {
+	font-size: 20px;
 }
 
 .bckevent {
@@ -101,7 +105,7 @@ h1 {
 	/*border-top-right-radius: 10px;*/
 	/*border-top-left-radius: 10px; */
 	/*border-radius: 10px;*/
-	padding-bottom: 1000px;
+	/*padding-bottom: 1000px;*/
 }
 
 .headPad {
@@ -111,9 +115,13 @@ h1 {
 	font-size: 3em;
 }
 
-.cenTxt {
+.headMarg {
+	margin-top: 10%;
+}
+
+.venueTxt {
 	/*text-align: justify;*/
-	text-align: justify;
+	text-align: left;
     text-justify: inter-word;
 	padding-bottom: 5%;
 }
@@ -137,6 +145,7 @@ h1 {
 
     border:4px solid grey;
     border-radius: 10px;
+    margin-bottom: 20px;
     /*margin-left: -10px;*/
     /*margin-right: -10px;*/
 }
@@ -180,6 +189,15 @@ h1 {
 		font-size: 25px;
 		padding-top: 10px;
 	}
+	.presentPoem {
+		font-size: 0.9em;
+	}
+	.headPad {
+		padding-top: 5%;
+		padding-bottom: 5%;
+		font-weight: 800;
+		font-size: 2.4em;
+	}
 }
 @media screen and (max-width: 992px) {
 	h1 {
@@ -194,6 +212,21 @@ h1 {
 	}
 	#demo{
 		font-size: 22px;
+	}
+	.fontMenu {
+		font-size: 1em;
+	}
+	.headPad {
+		padding-top: 5%;
+		padding-bottom: 5%;
+		font-weight: 800;
+		font-size: 2.4em;
+	}
+	.fontSize2x{
+		font-size: 1.5em;
+	}
+	.presentPoem {
+		font-size: 0.9em;
 	}
 }
 /* just to keep for later*/
@@ -230,12 +263,7 @@ h1 {
 	    background: #101010 url("../media/DSC01794_cover_portrait.jpg");
 	    background-size: 120%;
 	    /*padding-top: 50px;*/
-	    background-attachment: fixed;
-	    /*overflow: hidden;*/
-	    /*width: 100%;*/
-	    background-position: center top; 
-	    background-repeat: no-repeat;
-	    padding-top: 60px;
+	    padding-top: 50px;
 	    /*color: #EDEDED;*/
 	}
 	h1 {
@@ -249,7 +277,19 @@ h1 {
 		padding-top: 15px;
 	}
 	#demo{
-		font-size: 14px;
+		font-size: 16px;
+	}
+	.headPad {
+		padding-top: 5%;
+		padding-bottom: 5%;
+		font-weight: 800;
+		font-size: 2.4em;
+	}
+	.fontSize2x{
+		font-size: 1.5em;
+	}
+	.fontSize1x5{
+		font-size: 1.2em;
 	}
 	.names{
 		padding-top: 10px;
@@ -272,6 +312,9 @@ h1 {
 		/*background-color: rgba(230, 228, 228, 0.72);
 		padding: 2px 2px;
 		border-radius: 5px*/
+	}
+	.presentPoem {
+		font-size: 0.8em;
 	}
 
 }
